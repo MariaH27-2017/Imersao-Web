@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Spotify1;
+    src: url('../../assets/fonts/Spotify1.woff2');
+}
+@font-face {
+    font-family: Spotify3;
+    src: url('../../assets/fonts/Spotify3.woff2');
+}
+
+body {
+	margin:0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.logo img{
+    width: 8.5em;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3em 11em;
+}
+
+.container div{
+    margin-left: 1em;
+}
+
+.rodape1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.rodape2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.rodape3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.redes-sociais{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 1;
+
+}
+
+.redes-sociais div{
+    background-color: white;
+    width: 1.5em;
+    border-radius: 3em;
+    margin: 0.3em;
+    
+}
+
+.titulo{
+    color: #919496;
+}
+.instagram{
+    width: 3em;
+    background-image: url('../../assets/images/instagram-spotify.svg');
+
+}
+.twitter{
+    background-image: url('../../assets/images/twitter-spotify.svg');
+}
+.facebook{
+    background-image: url('../../assets/images/facebook-spotify.svg');
+
+}

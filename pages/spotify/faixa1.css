@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Spotify1;
+    src: url('../../assets/fonts/Spotify1.woff2');
+}
+@font-face {
+    font-family: Spotify3;
+    src: url('../../assets/fonts/Spotify3.woff2');
+}
+
+body {
+	margin:0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.cabecalho{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;
+background-color: black;
+color: #fff;
+
+padding: 1.2em 12em;
+
+}
+
+.logo img{
+    width: 8.2em;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.menu div {
+    margin: 0em 0.9em;
+    
+    cursor: pointer;
+    
+    font: 1em Spotify3;
+}
+
+.menu div:hover{
+    color:#1ed760
+}
+
+.cursor:hover{
+    color:#1ed760;
+    cursor: pointer
+}
+
+
+
+.login{
+    font: 1em Spotify1;
+    color:#d9dadc
+
+}
+
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: #919496;
+    font: 0.8em Spotify1;
+    padding: 2.5em 12em;
+
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+
+.text-group1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+   
+}
+
+.text-group1 div:hover{
+    color:#1ed760;
+    cursor: pointer
+}
+
+.text-group1 div{
+    margin: 0em 0.9em;
+}
+.text-group2{
+
+}

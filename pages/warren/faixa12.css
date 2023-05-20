@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Warren1;
+    src: url('../../assets/fonts/Warren1.woff2');
+}
+@font-face {
+    font-family: Warren2;
+    src: url('../../assets/fonts/Warren2.woff2');
+}
+@font-face {
+    font-family: Warren3;
+    src: url('../../assets/fonts/Warren3.woff2');
+}
+@font-face {
+    font-family: Warren4;
+    src: url('../../assets/fonts/Warren4.woff4');
+}
+
+body {
+	margin:0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+
+    background-color: #2e2d33;
+    padding: 4.5em 19em;
+
+    
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.logo img{
+    width: 7.5em;
+}
+
+.social-medias{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+
+}
+.social-medias img{
+    width: 1.9em;
+    margin: 0em 0.3em;
+
+}
+.texts{
+    font-family: Warren1;
+    line-height: 1.8em;
+    text-align: center;
+
+}
+
+.cnpj{
+    font-size: smaller;
+    
+}

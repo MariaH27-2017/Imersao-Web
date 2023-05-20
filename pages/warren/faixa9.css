@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Warren1;
+    src: url('../../assets/fonts/Warren1.woff2');
+}
+@font-face {
+    font-family: Warren2;
+    src: url('../../assets/fonts/Warren2.woff2');
+}
+@font-face {
+    font-family: Warren3;
+    src: url('../../assets/fonts/Warren3.woff2');
+}
+@font-face {
+    font-family: Warren4;
+    src: url('../../assets/fonts/Warren4.woff');
+}
+
+
+
+body {
+	margin:0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 5em 12.5em 4em;
+}
+
+.subtitle{
+    color: #666666;
+    font-family: Warren2;
+    font:bold
+    
+}
+
+.title{
+    font-family: Warren4;
+    font-size: 2.5em;
+    margin: 0em 0em 1em;
+    width: 12em;
+}
+
+.container-texts{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container-info{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f5f6fa;
+    margin: 3em 1em;
+    padding: 2em 2em;
+    width: 21em;
+    height: 23em;
+
+    border-radius: 1em;
+}
+
+.quote img{
+    width: 2.5em;
+    margin: 0em 0em 1em;
+}
+
+.text{
+    font-family: Warren1;
+}
+
+.company-name{
+    font-family: Warren2;
+    line-height: 4em;
+}
+
+.company img{
+    width: 4em;
+}
+

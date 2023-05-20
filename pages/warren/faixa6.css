@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Warren1;
+    src: url('../../assets/fonts/Warren1.woff2');
+}
+@font-face {
+    font-family: Warren2;
+    src: url('../../assets/fonts/Warren2.woff2');
+}
+@font-face {
+    font-family: Warren3;
+    src: url('../../assets/fonts/Warren3.woff2');
+}
+@font-face {
+    font-family: Warren4;
+    src: url('../../assets/fonts/Warren4.woff');
+}
+
+
+
+body {
+	margin:0px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    padding: 13em 30em;
+    background-image: url('../../assets/images/fundo2-warren.png');
+    background-color: black;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+}
+
+.text{
+    font-family: Warren4;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+.content1{
+    background-image: url('../../assets/images/educacao-financeira1-warren.png');
+    background-repeat: no-repeat;
+    background-size: 10.5em;
+
+    padding-left: 2em;
+    padding-top: 1em;
+
+    margin: 0em 2em;
+
+    height: 9em;
+    width: 11em;
+}
+
+.content2{
+    background-image: url('../../assets/images/planejamento-financeiro1-warren.png');
+    background-repeat: no-repeat;
+    background-size: 10.5em;
+
+
+    padding-left: 2em;
+    padding-top: 1em;
+
+    margin: 0em 2em;
+    
+    height: 9em;
+    width: 11em;
+}
+
+.content3{
+    background-image: url('../../assets/images/investimento1-warren.png');
+    background-repeat: no-repeat;
+    background-size: 10.5em;
+
+
+    padding-left: 2em;
+    padding-top: 1em;
+
+    margin: 0em 2em;
+    
+    height: 9em;
+    width: 11em;
+}
+
+.content4{
+    background-image: url('../../assets/images/cenario-macroeconomico1-warren.png');
+    background-repeat: no-repeat;
+    background-size: 10.5em;
+
+
+    padding-left: 2em;
+    padding-top: 1em;
+
+    margin: 0em 2em;
+    
+    height: 9em;
+    width: 11em;
+}
+
